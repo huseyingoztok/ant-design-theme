@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Button } from 'antd';
+import MediumLayout from './components/Layout';
 
 function App() {
   return (
-    <div>
-      <Button type={"primary"}>Save</Button>
-    </div>
+    <>
+      <MediumLayout/>
+    </>
   )
 }
 
