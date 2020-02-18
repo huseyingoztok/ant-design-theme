@@ -1,13 +1,17 @@
-import React from "react";
-import "./App.css";
-import { Button } from "antd";
 
-function App() {
+import React from "react";
+import './index.less';
+import { Layout, Icon } from 'antd';
+const { Header } = Layout;
+
+function MediumHeader() {
   return (
-    <div>
-      <Button type={"primary"}>Save</Button>
-    </div>
+    <>
+      <Header style={{ background: "#fff", padding: 0 }}>
+        <Icon className="trigger" type={"menu-unfold"} />
+      </Header>
+    </>
   );
 }
 
-export default App;
+export default MediumHeader;
